@@ -1,8 +1,8 @@
-# Aviationstack MCP Server
+## Aviationstack MCP Server
 
 This project is an **MCP (Multi-Channel Platform) server** that provides a set of tools to interact with the [AviationStack API](https://aviationstack.com/). It exposes endpoints for retrieving real-time and future flight data, aircraft types, and airplane details, making it easy to integrate aviation data into your applications.
 
-## Features
+### Features
 
 - **Get flights for a specific airline**
 - **Retrieve arrival and departure schedules for airports**
@@ -18,7 +18,7 @@ All endpoints are implemented as MCP tools and are ready to be used in an MCP-co
 - Python 3.10 or newer
 - uv package manager 
 
-## Available Tools
+### Available Tools
 
 #### 1. `flights_with_airline(airline_name: str, number_of_flights: int)`
 
@@ -56,7 +56,7 @@ Get random aircraft types.
 - **Parameters:**
   - `number_of_aircraft`: Number of aircraft types to return
 
-### 5. `random_airplanes_detailed_info(number_of_airplanes: int)`
+#### 5. `random_airplanes_detailed_info(number_of_airplanes: int)`
 
 Get detailed info on random airplanes.
 
@@ -64,7 +64,7 @@ Get detailed info on random airplanes.
   - `number_of_airplanes`: Number of airplanes to return
 
 
-## Development
+### Development
 
 - The main server logic is in `server.py`.
 - All MCP tools are defined as Python functions decorated with `@mcp.tool()`.

@@ -19,9 +19,9 @@ jobs:
         uses: TriPSs/conventional-changelog-action@v6
         with:
           github-token: ${{ secrets.github_token }}
-          output-file: "false"
+          output-file: 'false'
           create-summary: 'true'
-
+          version-file: './version.yaml'
       - name: Create Release
         if: steps.changelog.outputs.skipped == 'false'
         uses: ncipollo/release-action@v1
