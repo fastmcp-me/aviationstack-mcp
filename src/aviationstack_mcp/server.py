@@ -201,10 +201,3 @@ def random_airplanes_detailed_info(number_of_airplanes: int) -> str:
         return f"Request error: {str(e)}"
     except (KeyError, ValueError, TypeError) as e:
         return f"Error fetching airplanes: {str(e)}"
-
-def main():
-    """Run the MCP server."""
-    mcp.run()
-
-if __name__ == "__main__":
-    main()
