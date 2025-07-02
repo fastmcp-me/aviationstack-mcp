@@ -80,12 +80,13 @@ To add this server to your favorite MCP client, you can add the following to you
     "Aviationstack MCP": {
       "command": "uv",
       "args": [
+        "--directory",
+        "/path/to/aviationstack-mcp/src/aviationstack_mcp",
         "run",
-        "--with",
-        "mcp[cli],requests",
+        "-m",
+        "aviationstack_mcp",
         "mcp",
-        "run",
-        "/path/to/your/server.py"
+        "run"
       ],
       "env": {
         "AVIATION_STACK_API_KEY": "<your-api-key>"
