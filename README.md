@@ -4,7 +4,7 @@ This project is an **MCP (Multi-Channel Platform) server** that provides a set o
 
 ### Demo
 
-https://github.com/user-attachments/assets/af96f553-c6ba-4acc-9bdf-6d43e7bdd49a
+https://github.com/user-attachments/assets/9325fcce-8ecc-4b01-8923-4ccb2f6968f4
 
 ### Features
 
