@@ -1,6 +1,6 @@
 [project]
 name = "aviationstack-mcp"
-version = "1.2.0"
+version = "1.2.1"
 description = "Aviationstack MCP server."
 readme = "README.md"
 authors = [
