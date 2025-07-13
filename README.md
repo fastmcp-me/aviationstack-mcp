@@ -26,11 +26,11 @@ All endpoints are implemented as MCP tools and are ready to be used in an MCP-co
 
 | Tool | Description | Parameters |
 |------|-------------|------------|
-| `flights_with_airline(airline_name: str, number_of_flights: int)` | Get a random sample of flights for a specific airline. | `airline_name`: Name of the airline (e.g., "Delta Air Lines")<br>`number_of_flights`: Number of flights to return |
-| `flight_arrival_departure_schedule(airport_iata_code: str, schedule_type: str, airline_name: str, number_of_flights: int)` | Get arrival or departure schedules for a given airport and airline. | `airport_iata_code`: IATA code of the airport (e.g., "JFK")<br>`schedule_type`: "arrival" or "departure"<br>`airline_name`: Name of the airline<br>`number_of_flights`: Number of flights to return |
-| `future_flights_arrival_departure_schedule(airport_iata_code: str, schedule_type: str, airline_iata: str, date: str, number_of_flights: int)` | Get future scheduled flights for a given airport, airline, and date. | `airport_iata_code`: IATA code of the airport<br>`schedule_type`: "arrival" or "departure"<br>`airline_iata`: IATA code of the airline (e.g., "DL" for Delta)<br>`date`: Date in `YYYY-MM-DD` format<br>`number_of_flights`: Number of flights to return |
-| `random_aircraft_type(number_of_aircraft: int)` | Get random aircraft types. | `number_of_aircraft`: Number of aircraft types to return |
-| `random_airplanes_detailed_info(number_of_airplanes: int)` | Get detailed info on random airplanes. | `number_of_airplanes`: Number of airplanes to return |
+| `flights_with_airline(airline_name: str, number_of_flights: int)` | Get a random sample of flights for a specific airline. | - **`airline_name`**: Name of the airline (e.g., "Delta Air Lines")<br> - **`number_of_flights`**: Number of flights to return |
+| `flight_arrival_departure_schedule(airport_iata_code: str, schedule_type: str, airline_name: str, number_of_flights: int)` | Get arrival or departure schedules for a given airport and airline. | - **`airport_iata_code`**: IATA code of the airport (e.g., "JFK")<br> - **`schedule_type`**: "arrival" or "departure"<br> - **`airline_name`**: Name of the airline<br> - **`number_of_flights`**: Number of flights to return |
+| `future_flights_arrival_departure_schedule(airport_iata_code: str, schedule_type: str, airline_iata: str, date: str, number_of_flights: int)` | Get future scheduled flights for a given airport, airline, and date. | - **`airport_iata_code`** : IATA code of the airport<br> - **`schedule_type`**: "arrival" or "departure"<br> - **`airline_iata`**: IATA code of the airline (e.g., "DL" for Delta)<br> - **`date`**: Date in `YYYY-MM-DD` format<br> - **`number_of_flights`**: Number of flights to return |
+| `random_aircraft_type(number_of_aircraft: int)` | Get random aircraft types. | - **`number_of_aircraft`**: Number of aircraft types to return |
+| `random_airplanes_detailed_info(number_of_airplanes: int)` | Get detailed info on random airplanes. | - **`number_of_airplanes`**: Number of airplanes to return |
 
 ### Development
 
@@ -47,7 +47,7 @@ To add this server to your favorite MCP client, you can add the following to you
 ```json
 {
   "mcpServers": {
-    "aviationstack-mcp": {
+    "Aviationstack MCP": {
       "command": "uvx",
       "args": [
         "aviationstack-mcp"
