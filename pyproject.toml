@@ -11,9 +11,18 @@ dependencies = [
     "mcp[cli]>=1.10.1",
     "requests"
 ]
+keywords = [
+    "mcp",
+    "model-context-protocol",
+    "ai",
+    "llm",
+    "server",
+]
 classifiers = [
     "Intended Audience :: Developers",
-    "Topic :: Software Development :: Libraries",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
